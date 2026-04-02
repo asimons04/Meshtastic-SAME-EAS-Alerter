@@ -94,7 +94,8 @@ Meshtastic-SAME-EAS-Alerter --rate <SAMPLING_RATE_HERE>
 ```
 
 ### msg chars
-- Specify the number of characters to split each message into.
+- Specify the number of characters to split the alerts into. 
+- Alerts are sent as multiple messages each `msg_chars` length or less.
 - Must be between 75 and 200
 - Default is  75
 
