@@ -329,7 +329,7 @@ async fn main() -> Result<()> {
                             log::info!("Ignoring test alert");
                             continue;
                         }
-                        message = "".to_string()
+                        message = "📖Received ".to_string()
                             + &evt.to_string()
                             + " from "
                             + hdr.callsign()
